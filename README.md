@@ -41,3 +41,4 @@ The following images show the web application's appearance and functionality:
 ## Credits
 
 This project was completed by Valentina Strizheus.
+Original source code (as shown in the starter files) was provided by edEx OSU Bootcamp.
