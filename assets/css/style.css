@@ -1,14 +1,18 @@
 * {
+    /* Setting no padding and margin for all elements.
+    Settign border and box size for all elements. */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* Giving background a solid color */
     background-color: #d9dcd6;
 }
 
 .header {
+    /*Header style */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +20,18 @@ body {
 }
 
 .header h1 {
+    /* Front size inline-block style for h1 */
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /* Setting color of letters "seo" to gray in company logo */
     color: #d9dcd6;
 }
 
 .header div {
+    /* header styling */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,24 +40,29 @@ body {
 }
 
 .header div ul {
+    /* Removing bullet points from list in header */
     list-style-type: none;
 }
 
 .header div ul li {
+    /* putting menu items in one line */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* Style for menu-nav anchor - setting color, remove underline */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* paragraph font size */
     font-size: 16px;
 }
 
 .hero {
+    /* background image style and layout */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,22 +72,26 @@ p {
 }
 
 .float-left {
+    /* layout for search engine optimization image */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* layout for social media marketing image */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* layout of main content */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /* sidebar info styling */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,54 +103,64 @@ p {
 }
 
 .benefit-lead {
+    /* lead generation style side content*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /* brand awareness style side content*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /* cost management style in side content*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+    /* lead generation text */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+    /* brand awareness text */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    /* cost management text */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /* lead generation image */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
+    /* brand awareness image */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /* cost management image */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .search-engine-optimization {
+    /* search engine optimization section styling */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +170,7 @@ p {
 }
 
 .online-reputation-management {
+    /* online reputation section styling */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +180,7 @@ p {
 }
 
 .social-media-marketing {
+    /* social media marketing styling */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,28 +190,34 @@ p {
 }
 
 .search-engine-optimization img {
+    /* size of image section content */
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /* size of image section content */
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /* size of image section content */
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+    /* section font and margin */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
+    /* section font and margin */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
+    /* section font and margin */
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -195,6 +229,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+.footer h4 {
+    font-size: 2Opx;
 }
